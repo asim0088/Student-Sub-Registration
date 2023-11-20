@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 200px; 
+  padding: 20px;
+  width: calc(25% - 20px); 
+  margin-top: 20px;
+  
+}
+
+.semester-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.semester-buttons button {
+  width: 100%; 
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px; 
+  margin-bottom: 10px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.head{
+  color: white;
+  background-color:blueviolet;
+  text-align: center;
+  margin-top:auto;
+  
+}
+
+
+.basket-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin-left: 5px; 
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 300px;
+  width: 1000px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.333);
+  box-shadow: inset;
+  padding: 10px 15px; 
+}
+
+
+
+.semester-buttons button:hover {
+  background-color: #29b95e; 
+  
+}
+
+.sub-basket-cards-container1 {
+  display: flex;
+  justify-content: space-around;
+    margin-top: 10px; 
+  flex-wrap: wrap;
+}
+
+.sub-basket-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin-left: 5px; 
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 130px; 
+  width: 200px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.333);
+  box-shadow: inset;
+  padding: 10px 15px; 
+}
+
+
+
+
+.sub-basket-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  width: 200px; 
+}
+
+.sub-basket-card p {
+  margin: 0; 
+}
+
+.sub-basket-card button {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3498db;
+  color: white;
+
+}
+
