@@ -1,0 +1,11 @@
+  section img{
+    max-width: 34rem;
+}
+#sun{
+    display: flex;
+}  
+.sign_img{
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+}
