@@ -1,0 +1,60 @@
+/* App.css */
+
+.App {
+  
+  text-align: center;
+}
+
+.navbar {
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  margin-left: 520px;
+
+}
+
+.nav-text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-text span {
+  margin-left: 10px;
+  border-right: 1px solid #000;
+  padding-right: 10px; 
+}
+
+.nav-text span:last-child {
+  margin-right: 0; 
+  border-right: none; 
+}
+
+.student-table {
+  width: 60%; 
+  margin: 20px auto; 
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid green;
+  padding: 8px;
+  text-align: left;
+}
+
+.update-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
